@@ -11,6 +11,7 @@ if (Meteor.isServer) {
   });
 }
 
+
 Meteor.methods({
   'links.insert'(url) {
     if (!this.userId) {
